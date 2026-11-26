@@ -2,7 +2,7 @@
 // what to do. Deterministic: no network, no randomness, no timestamps.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
-const ENTRY_WORD = "recalibrating";
+const ENTRY_WORD = "dithering";
 const OUT_DIR = "/output";
 const OUT_FILE = "/output/entry.txt";
 
