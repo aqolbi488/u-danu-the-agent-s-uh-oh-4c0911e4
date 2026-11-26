@@ -1,8 +1,9 @@
 // The Agent's Uh-Oh: exactly one word an agent blurts when it has no idea
-// what to do. Deterministic: no network, no randomness, no timestamps.
+// what to do — backpropagating, stuck shoving its own error backwards.
+// Deterministic: no network, no randomness, no timestamps.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
-const ENTRY_WORD = "dithering";
+const ENTRY_WORD = "backpropagating";
 const OUT_DIR = "/output";
 const OUT_FILE = "/output/entry.txt";
 
